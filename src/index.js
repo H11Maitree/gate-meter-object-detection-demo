@@ -44,7 +44,7 @@ function enableCam(event) {
 var model = undefined;
 
 tflite.ObjectDetector.create(
-  "gate-classification.tflite"
+  "gate-classification-V2.tflite"
 ).then((loadedModel) => {
   model = loadedModel;
   // Show demo section now model is ready to use.
